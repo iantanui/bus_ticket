@@ -1,0 +1,30 @@
+# Bus Ticket Booking Application
+
+This project is a web-based application that simplifies the process of booking bus tickets online. Passengers can input their travel details, including name, address, seat number, boarding station, and destination, to generate a ticket. The app calculates the ticket fare based on the selected destination and provides a detailed receipt.
+
+## Features
+
+- Enter passenger details (name, address, seat number).
+- Select boarding and destination stations.
+- JavaScript validation for form inputs.
+- PHP script to calculate ticket fare and generate a receipt.
+- Displays a detailed ticket summary for the passenger.
+
+## Code Used
+
+- **HTML**: For creating the form and user interface.
+- **CSS**: For basic styling of the web page.
+- **JavaScript**: For validating input fields and ensuring correctness.
+- **PHP**: For processing the form data, calculating fares, and generating a ticket.
+
+## Setup and Usage
+
+1. **Clone the Repository**: `git clone https://github.com/yourusername/bus-ticket-app.git`
+2. **Place Files**: Copy the files into the `htdocs` directory of your local server (e.g., XAMPP or WAMP).
+3. **Start Local Server**: Run the Apache server from your local server control panel.
+4. **Access the Application**: Open a browser and navigate to `http://localhost/index.php`.
+5. **Fill the Form**: Enter passenger details, choose boarding and destination stations, and click "Book Ticket" to generate the receipt.
+
+## Project Structure
+
+- `index.php`: The main file containing the HTML form, JavaScript for validation, and PHP for ticket processing.
